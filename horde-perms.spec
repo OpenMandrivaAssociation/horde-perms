@@ -20,7 +20,6 @@ Requires:      horde-group
 Requires:      horde-datatree
 Requires:      horde-tree
 Requires:      php-gettext
-BuildRequires: horde-framework
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
 BuildRoot:     %{_tmppath}/%{name}-%{version}
