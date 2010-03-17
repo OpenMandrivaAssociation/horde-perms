@@ -5,14 +5,14 @@
 
 Name:          horde-perms
 Version:       0.1.0
-Release:       %mkrel 1
+Release:       %mkrel 2
 Summary:       Horde Permissions System
 License:       LGPL
 Group:         Networking/Mail
 Url:           http://pear.horde.org/index.php?package=%{prj}
 Source0:       %{prj}-%{version}.tgz
 BuildArch:     noarch
-Requires(pre): %{_bindir}/pear
+Requires(pre): php-pear
 Requires:      php-pear
 Requires:      horde-framework
 Requires:      horde-util
