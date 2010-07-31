@@ -5,7 +5,7 @@
 
 Name:          horde-perms
 Version:       0.1.0
-Release:       %mkrel 2
+Release:       %mkrel 3
 Summary:       Horde Permissions System
 License:       LGPL
 Group:         Networking/Mail
@@ -22,7 +22,6 @@ Requires:      horde-tree
 Requires:      php-gettext
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
-BuildRoot:     %{_tmppath}/%{name}-%{version}
 
 %description
 The Perms package provides an interface to the Horde permissions system.
