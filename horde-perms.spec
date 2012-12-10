@@ -60,3 +60,22 @@ fi
 %{peardir}/Horde/Perms/UI.php
 %{peardir}/Horde/Perms/datatree.php
 %{peardir}/Horde/Perms/sql.php
+
+
+%changelog
+* Sat Jul 31 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.1.0-3mdv2011.0
++ Revision: 564079
+- Increased release for rebuild
+
+* Wed Mar 17 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.1.0-2mdv2010.1
++ Revision: 523037
+- replaced Requires(pre): %%{_bindir}/pear with Requires(pre): php-pear
+  increased release version
+
+* Mon Feb 22 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.1.0-1mdv2010.1
++ Revision: 509394
+- removed Buildrequires -horde-framework
+- replace PreReq with Requires(pre)
+- Initial import
+
+
