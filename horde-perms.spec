@@ -5,7 +5,7 @@
 
 Name:          horde-perms
 Version:       0.1.0
-Release:       %mkrel 3
+Release:       4
 Summary:       Horde Permissions System
 License:       LGPL
 Group:         Networking/Mail
